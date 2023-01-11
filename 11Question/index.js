@@ -9,4 +9,4 @@ console.log("Date today = ", date.getDate());
 console.log("Day today = ", date.getDay());
 console.log("Hour now = ", date.getHours());
 console.log("Minute now = ", date.getMinutes());
-console.log("Seconds elapsed between Jan 1, 1970 till now = ", (date - specifiedDate) / 1000);
+console.log("Seconds elapsed between Jan 1, 1970 till now = ", Math.round((date - specifiedDate) / 1000));
