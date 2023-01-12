@@ -14,6 +14,8 @@ readline.question("Enter your marks : ", (marks) => {
 		console.log(`You have secured "D" grade as your marks was ${marks}`);
 	} else if (marks >= 0 && marks <= 49) {
 		console.log(`You have secured "F" grade as your marks was ${marks}`);
+	} else {
+		console.log(`${marks} is not a valid marks.`);
 	}
 	readline.close();
 });
