@@ -14,7 +14,7 @@ readline.question("Enter month name : ", (months) => {
 	} else if (month === "june" || month === "july" || month === "august") {
 		console.log(`The season is Summer`);
 	} else {
-		console.log(`${month} is not a valid marks.`);
+		console.log(`${month} is not a valid month.`);
 	}
 	readline.close();
 });
