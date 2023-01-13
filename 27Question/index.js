@@ -1,4 +1,4 @@
-let prm = [];
+let prime = [];
 for (let i = 0; i <= 100; i++) {
 	let flag = false;
 	for (let j = 2; j < i; j++) {
@@ -8,7 +8,7 @@ for (let i = 0; i <= 100; i++) {
 		}
 	}
 	if (flag == false && i > 1) {
-		prm.push(i);
+		prime.push(i);
 	}
 }
-console.log(prm);
+console.log(prime);
